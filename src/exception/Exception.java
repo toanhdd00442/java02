@@ -14,17 +14,19 @@ public class Exception {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         // TODO code application logic here
         String names="Truong,Nam,Khanh,Danh";
         String[] arrayName = names.split(",");
         for (int i=0;i< arrayName.length;i++){
-            System.out.println(i+1+".");
-            System.out.println(arrayName[i]);
+            System.out.println(i +1 +"."+arrayName[i].trim());
         }
-                
-      
+        System.out.println("Hello World");
+        System.out.println("Them Moi");
+        
     }
+
+    
     
             
 }
